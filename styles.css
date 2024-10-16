@@ -30,4 +30,18 @@
     right: -10px;
     background-color: red;
   }
-  
+  img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .sect3div{
+    overflow: hidden;
+    transition:0.3s
+  }
+  .sect3div img{
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .sect3div img:hover{
+    scale: 0.9;
+  }
