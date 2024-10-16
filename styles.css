@@ -45,3 +45,33 @@
   .sect3div img:hover{
     scale: 0.9;
   }
+  .card {
+    font-size: 0.8em;
+    width: 15rem;
+    height: 25rem;
+  }
+  .card_img {
+    overflow: hidden;
+    height: 10rem;
+  }
+  .card_img img {
+    height: 100%;
+    transition: 0.5s;
+  }
+  .card_img img:hover {
+    scale: 1.2;
+  }
+  .card-body {
+    height: 15rem;
+  }
+  .card-text {
+    font-size: 0.9em;
+    padding: 10px;
+    margin: 0;
+  }
+  .card b {
+    padding: 5px;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
