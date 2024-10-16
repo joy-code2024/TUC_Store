@@ -10,3 +10,24 @@
     color: #333;
     font-weight: 500;
 }
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ff9900;
+  }
+  .navbar-toggler {
+    border-color: #ff9900;
+  }
+  .cart-icon {
+    font-size: 20px;
+    position: relative;
+  }
+  .cart-icon .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+  }
+  
