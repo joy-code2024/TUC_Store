@@ -1,76 +1,79 @@
-.navbar-brand{
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff9900;
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9900;
 }
-.search-bar{
-    width: 50%;
-}
-.navbar-nav .nav-link{
-    color: #333;
-    font-weight: 500;
+.search-bar {
+  width: 50%;
 }
 .navbar-nav .nav-link {
-    color: #333;
-    font-weight: 500;
-  }
-  .navbar-nav .nav-link:hover {
-    color: #ff9900;
-  }
-  .navbar-toggler {
-    border-color: #ff9900;
-  }
-  .cart-icon {
-    font-size: 20px;
-    position: relative;
-  }
-  .cart-icon .badge {
-    position: absolute;
-    top: -5px;
-    right: -10px;
-    background-color: red;
-  }
-  img{
-    width: 100%;
-    object-fit: cover;
-  }
-  .sect3div{
-    overflow: hidden;
-    transition:0.3s
-  }
-  .sect3div img{
-    overflow: hidden;
-    transition: 0.5s;
-  }
-  .sect3div img:hover{
-    scale: 0.9;
-  }
-  .card {
-    font-size: 0.8em;
-    width: 14rem;
-    height: 22rem;
-  }
-  .card_img {
-    overflow: hidden;
-    min-height: 10rem;
-  }
-  .card_img img {
-    height: 100%;
-    width: 100%;
-    transition: 0.5s;
-  }
-  .card_img img:hover {
-    scale: 1.2;
-  }
-  .card-text {
-    font-size: 0.9em;
-    padding: 10px;
-    margin: 0;
-    min-height: 5rem;
-  }
-  .card b {
-    padding: 5px;
-  }
-  .card-title {
-    font-size: 0.8rem;
-  }
+  color: #333;
+  font-weight: 500;
+}
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #ff9900;
+}
+.navbar-toggler {
+  border-color: #ff9900;
+}
+.cart-icon {
+  font-size: 20px;
+  position: relative;
+}
+.cart-icon .badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.sect3div {
+  overflow: hidden;
+  transition: 0.3s;
+}
+.sect3div img {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.sect3div img:hover {
+  scale: 0.9;
+}
+.card {
+  font-size: 0.8em;
+  width: 14rem;
+  height: 22rem;
+}
+.card_img {
+  overflow: hidden;
+  min-height: 10rem;
+}
+.card_img img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+.card_img img:hover {
+  scale: 1.2;
+}
+.card-text {
+  font-size: 0.9em;
+  padding: 2px;
+  margin: 0;
+  min-height: 4.5rem;
+}
+.card b {
+  padding: 5px;
+}
+.card-title {
+  font-size: 0.8rem;
+  min-height: 2rem;
+  color: #ff9900;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
