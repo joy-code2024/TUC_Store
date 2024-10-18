@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+</head>
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- logo  -->
+          <a href="#" class="navbar-brand">TUC_Store</a>
+
+          <!-- toggler/collapsing button for mobile view  -->
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            arial-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- navbar links & search  -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- centered search bar  -->
+            <form class="d-flex mx-auto search-bar">
+              <input
+                type="search"text
+                placeholder="Search for products, brands, and more"
+                class="form-control"
+              />
+              <button class="btn btn-warning ms-1">Search</button>
+            </form>
+
+            <!-- Right-aligned links  -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="account.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-cart cart-icon"></i>
+                  <span class="badge bg-danger">3</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <!--content-->
+        <section class="row m-4 p-2 justify-content-center align-items-center">
+            <div class="p-4 text-center col-md-12 shadow justify-content-center
+             align-items-center">
+             <div style="width: 100px; height: 100px; margin: 10px auto;">
+                <img src="images/cart.svg" alt="" width="100%">
+             </div>
+             <div class="container mt-5">
+                <h2 class="text-center mb-4">Your orders</h2>
+                <table class="table table-hover table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Order ID</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Total</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#3214</td>
+                            <td>2024-10-10</td>
+                            <td><span class="badge bg-success">Delivered</span></td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>#6456</td>
+                            <td>2024-10-17</td>
+                            <td><span class="badge bg-info">shipped</span></td>
+                            <td>8000</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+
+             </div>
+
+            </div>
+
+        </section>
+        <div class="d-flex justify-content-center flex-column align-items-center">
+            <p>Browse our categories and discover our best deals</p>
+            <br>
+            <a href="index.html" class="btn btn-warning text-light text-center"
+            style="width: 20%;">continue shopping</a>
+
+        </div>
+        <h1 class="display-3 text-warning text-center m-4">Reviewed  items</h1>
+
+        <section class="row">
+            <div class="col-md-3 text-center">
+              <div class="card">
+                <div class="card_img">
+                  <img
+                    src="images/appl1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    width="100%"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">400ml Electric Fruit Juicer</h5>
+                  <p class="card-text">
+                    400ml Electric Fruit Juicer Portable Blender For Shakes And
+                    Smoothies
+                  </p>
+                  <b class="text-warning">KSh 984</b>
+                  <br />
+                  <a href="#" class="btn btn-danger">-40%</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-3 text-center">
+              <div class="card">
+                <div class="card_img">
+                  <img
+                    src="images/appl2.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    width="100%"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sundabest Stainless Steel Hotpots</h5>
+                  <p class="card-text">
+                    Sundabest Stainless Steel Hotpots (341001404)
+                  </p>
+                  <b class="text-warning">KSh 5,940</b>
+                  <br />
+                  <a href="#" class="btn btn-danger">-5%</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-3 text-center">
+              <div class="card">
+                <div class="card_img">
+                  <img
+                    src="images/appl3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    width="100%"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nunix 3 In 1 Blender</h5>
+                  <p class="card-text">
+                    Nunix 3 In 1 Blender, Grinder & Chopper AK-444..
+                  </p>
+                  <b class="text-warning">KSh 2,755</b>
+                  <br />
+                  <a href="#" class="btn btn-danger">-35%</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-3 text-center">
+              <div class="card">
+                <div class="card_img">
+                  <img
+                    src="images/appl4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                    width="100%"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">400ml Electric Fruit Juicer</h5>
+                  <p class="card-text">
+                    400ml Electric Fruit Juicer Portable Blender For Shakes And
+                    Smoothies
+                  </p>
+                  <b class="text-warning">KSh 984</b>
+                  <br />
+                  <a href="#" class="btn btn-danger">-30%</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      </div>
+      <!--footer-->
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <!-- categories section  -->
+                 <div class="col-md-3">
+                 <h5>Categories</h5>
+                 <ul class="list-unstyled">
+                  <li><a href="">Electronics</a></li>
+                  <li><a href="">Fashion</a></li>
+                  <li><a href="">Home & Living</a></li>
+                  <li><a href="">Health & Beauty</a></li>
+                  <li><a href="">Sports & Outdoors</a></li>
+                </ul>
+              </div>
+    
+              <!-- customer service section  -->
+               <div class="col-md-3">
+                <h5>Customer Service</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Shipping Info</a></li>
+                  <li><a href="#">Track Orders</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+               </div>
+
+    
+               <!-- About TUC_Store Section  -->
+               <div class="col-md-3">
+                <h5>About TUC_Store</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Affiliate Program</a></li>
+                </ul>
+              </div>
+    
+              <!-- Newsletter & Social Media -->
+              <div class="col-md-3">
+                <h5>Stay Connected</h5>
+                <form class="mb-3">
+                  <input type="email" class="form-control newsletter-input" placeholder="Subscribe to Newsletter">
+                  <button type="submit" class="btn btn-warning mt-2">Subscribe</button>
+                </form>
+                <div class="social-icons">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+    
+              </div>
+            </div>
+           </footer>
+</body>
+</html>
